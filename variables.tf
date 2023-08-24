@@ -1,6 +1,6 @@
 variable "ipaddress" {
   type        = string
-  description = "CIDR address"
+  description = "CIDR address block for vpc"
 }
 
 variable "tags" {
